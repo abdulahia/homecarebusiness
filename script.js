@@ -22,3 +22,7 @@ document.getElementById('contact-form').addEventListener('submit', function(even
         alert('There was a problem sending your message. Please try again.');
     });
 });
+
+document.querySelector('.hamburger').addEventListener('click', function() {
+    document.querySelector('.nav-list').classList.toggle('active');
+});
